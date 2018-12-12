@@ -1,6 +1,6 @@
 # Braintree drop-in UI in Swift (Client) and NodeJS (Server)
 
-This is a sample project that shows how to implement Braintree drop-in UI in a Swift iOS app (Client) using NodeJS (Server).
+This is a sample project that shows how to implement BrainTree drop-in UI in a Swift iOS app (Client) using NodeJS (Server).
 
 <img src='https://developers.braintreepayments.com/img/developers/client-sdk-ios-series-light.png' width='100%' alt='Braintree drop-in UI in Swift (Client) and NodeJS (Server)'>
 
