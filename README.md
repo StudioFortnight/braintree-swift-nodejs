@@ -24,6 +24,17 @@ $ npm install
 $ npm start
 ```
 
+### Create .env variables
+
+* Navigate to <a href="https://articles.braintreepayments.com/control-panel/important-gateway-credentials#api-credentials" target="_blank">**BrainTree**</a> to fetch your API credentials
+* Navigate to your server folder
+* Create a .env file and add your credentials
+```
+MERCHANTID = #Your merchantId#
+PUBLICKEY = #Your publicKey#
+PRIVATEKEY = #Your privateKey#
+```
+
 ## Project setup (Client)
 
 ### Install dependecies
