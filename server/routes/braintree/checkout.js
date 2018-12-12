@@ -3,13 +3,7 @@ var router = express.Router();
 var braintree = require('braintree');
 
 router.post('/', function (req, res, next) {
-    var gateway = braintree.connect({
-        environment: braintree.Environment.Sandbox,
-        // Use your own credentials from the sandbox Control Panel here
-        merchantId: process.env.MERCHANTID,
-        publicKey: process.env.PUBLICKEY,
-        privateKey: process.env.PRIVATEKEY
-    });
+    var gateway = require('./gateway');
 
     // Use the payment method nonce here
     var nonceFromTheClient = req.body.paymentMethodNonce;
