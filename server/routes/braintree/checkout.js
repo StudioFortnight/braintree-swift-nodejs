@@ -1,6 +1,5 @@
 var express = require('express');
 var router = express.Router();
-var braintree = require('braintree');
 
 router.post('/', function (req, res, next) {
     var gateway = require('./gateway');

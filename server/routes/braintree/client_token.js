@@ -1,6 +1,5 @@
 var express = require('express');
 var router = express.Router();
-var braintree = require('braintree');
 require('dotenv').config()
 
 router.get('/', function (req, res, next) {
