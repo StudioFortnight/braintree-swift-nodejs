@@ -4,7 +4,7 @@ This is a sample project that shows how to implement Braintree drop-in UI in a S
 
 It uses the Braintre framework that was built with Carthage. See instructions in this tutorial: https://github.com/marketplacer/braintree-framework-builder.
 
-<img src='https://developers.braintreepayments.com/img/developers/client-sdk-ios-series-light.png' width='350' alt='Braintree drop-in UI in Swift (Client) and NodeJS (Server)'>
+<img src='https://developers.braintreepayments.com/img/developers/client-sdk-ios-series-light.png' width='100%' alt='Braintree drop-in UI in Swift (Client) and NodeJS (Server)'>
 
 ## Project setup (Server)
 
@@ -25,7 +25,7 @@ npm start
 
 ### Install dependecies
 
-Navigate inside your client folder, then BraintreeSwiftNodejs and run:
+Navigate to client -> BraintreeSwiftNodejs and run:
 ```
 pod install
 ```
