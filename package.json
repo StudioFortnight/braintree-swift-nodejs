@@ -1,0 +1,29 @@
+{
+  "name": "braintree-swift-nodejs",
+  "version": "1.0.0",
+  "description": "An iOS/Swift - NodeJS demo app showing how to use Braintree",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StudioFortnight/braintree-swift-nodejs.git"
+  },
+  "keywords": [
+    "ios",
+    "swift",
+    "nodejs",
+    "braintree"
+  ],
+  "author": "Fortnight Studio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StudioFortnight/braintree-swift-nodejs/issues"
+  },
+  "homepage": "https://github.com/StudioFortnight/braintree-swift-nodejs#readme",
+  "dependencies": {
+    "braintree": "^2.13.1",
+    "express": "^4.16.4"
+  }
+}
